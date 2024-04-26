@@ -17,6 +17,7 @@ public class JobApplication {
     private String jobId;
     private String recruiterName;
     private String refererName;
+    private String jobTitle;
     private String applicationDate;
     private String applicationLink;
     private String resume;

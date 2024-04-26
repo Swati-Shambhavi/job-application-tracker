@@ -13,6 +13,7 @@ aws:
   secretKey: ${AWS_SECRET_ACCESS_KEY}
   region: ap-south-1
   rdsSecretName: ${RDS_SECRET_NAME}
+  bucketName: ${BUCKET_NAME}
 
 
 
