@@ -1,9 +1,18 @@
 spring:
   application:
     name: job-application-tracker
-  datasource:
-    url: jdbc:h2:mem:mydatabase
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+#  datasource:
+#    url: jdbc:mysql://job-application-tracker.cx6o0iigiao0.ap-south-1.rds.amazonaws.com:3306/job_application_tracker
+#    username: admin
+#    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+aws:
+  accessKey: ${AWS_ACCESS_KEY_ID}
+  secretKey: ${AWS_SECRET_ACCESS_KEY}
+  region: ap-south-1
+  rdsSecretName: ${RDS_SECRET_NAME}
+
+
 
